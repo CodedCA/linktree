@@ -1,0 +1,114 @@
+:root {
+    --backround: #FAF7FD;
+    --main-color: rgb(190, 128, 149);
+    --main-color-pink: rgb(190, 128, 149);
+    --main-color-green: rgb(128, 190, 141);
+    --main-color-blue: rgb(128, 145, 190);
+    --none: rgba(255, 0, 0, 0);
+}
+
+
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--backround);
+}
+
+.img-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid var(--none);
+    outline: 1px solid var(--main-color);
+}
+
+.ig {
+    margin-top: 20px;
+    color: var(--main-color);
+}
+
+
+.btn-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 200px;
+}
+.pre-btn {
+    width: 250px;  
+    background-color: var(--none);
+    border: 1px solid var(--main-color);
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    height: 35px;
+    color: var(--main-color);
+}
+
+.pre-btn:hover {
+    cursor: pointer;
+}
+
+.btn-box-footer {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 50px;
+}
+
+.btn {
+    background: var(--none);
+    color: var(--main-color);
+    border: none;
+    font-size: 20px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.colors {
+    margin-top: 80px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: black;
+    border: none;
+}
+
+.circle:hover {
+    cursor: pointer;
+}
+
+.pink {
+    background-color: var(--main-color-pink);
+}
+
+.blue {
+    background-color: var(--main-color-blue);
+}
+
+.green {
+    background-color: var(--main-color-green);
+}
